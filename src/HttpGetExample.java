@@ -30,7 +30,7 @@ public class HttpGetExample {
                     HttpRequest.newBuilder()
                             .uri(
                                     URI.create(
-                                            "https://httpbin.org/get"
+                                            "https://api.github.com"
                                     )
                             )
                             .header(
